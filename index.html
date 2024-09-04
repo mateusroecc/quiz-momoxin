@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quizz</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <h1 id="main-title">Quiz Momoxin</h1>
+
+    <!-- SCORE BORAD -->
+    <div id="score-container" class="hide">
+      <h2>Parbéns!</h2>
+      <p id="display-score"><span>90</span>%</p>
+      <p>
+        Você acertou! <span id="correct-answers">0</span> de
+        <span id="questions-qty">10</span> perguntas
+      </p>
+      <button id="restart">Refazer quizz!</button>
+    </div>
+
+    <!-- QUIZZ CONTAINER -->
+    <div id="quizz-container">
+      <p id="question">
+        <span id="question-number">1</span> -
+        <span id="question-text">PERGUNTA ALEATORIA</span>
+      </p>
+      <div id="answers-box">
+        <button>
+          <span class="btn-letter">A</span>
+          <span class="question-answer">RESPOSTA ALEATORIA</span>
+        </button>
+        <button>
+          <span class="btn-letter">B</span>
+          <span class="question-answer">RESPOSTA ALEATORIA</span>
+        </button>
+        <button>
+          <span class="btn-letter">C</span>
+          <span class="question-answer">RESPOSTA ALEATORIA</span>
+        </button>
+        <button>
+          <span class="btn-letter">D</span>
+          <span class="question-answer">RESPOSTA ALEATORIA</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- TEMPLATE RESPOSTA -->
+    <button class="answer-template hide">
+      <span class="btn-letter">A</span>
+      <span class="question-answer">RESPOSTA ALEATORIA</span>
+    </button>
+  </body>
+</html>
